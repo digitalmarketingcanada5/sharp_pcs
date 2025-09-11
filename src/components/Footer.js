@@ -22,7 +22,7 @@ const Footer = () => (
                     <ul className="text-sm space-y-4">
                          <li className="flex items-start">
                             <img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-marker.svg" alt="Location" className="h-5 w-5 mr-3 mt-1"/>
-                            <a href="https://g.page/cm-solutions-monrovia?gm" target="_blank" className="text-gray-400 hover:text-white">114 W. Colorado Blvd.<br/>Monrovia, CA 91016</a>
+                            <a href="https://g.page/cm-solutions-monrovia?gm" target="_blank" className="text-gray-400 hover:text-white">3099-421 7 ave sw</a>
                         </li>
                         <li className="flex items-center">
                             <img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-phone.svg" alt="Phone" className="h-5 w-5 mr-3"/>
@@ -30,7 +30,7 @@ const Footer = () => (
                         </li>
                         <li className="flex items-center">
                             <img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-mail.svg" alt="Email" className="h-5 w-5 mr-3"/>
-                            <a href="mailto:info@thecmsolution.com" className="text-gray-400 hover:text-white">info@thecmsolution.com</a>
+                            <a href="mailto:info@sharppcs.com" className="text-gray-400 hover:text-white">info@sharppcs.com</a>
                         </li>
                     </ul>
                 </div>
