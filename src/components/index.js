@@ -1,0 +1,7 @@
+export { default as Header } from './Header'
+export { default as Footer } from './Footer'
+export { default as Layout } from './Layout'
+export { default as HeroSlider } from './HeroSlider'
+export { default as ServicesHero } from './ServicesHero'
+export { default as ServicesContent } from './ServicesContent'
+export { default as ContactContent } from './ContactContent'
