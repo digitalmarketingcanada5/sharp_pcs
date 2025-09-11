@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 // Header component
 const Header = () => {
@@ -97,7 +98,7 @@ const ContactPage = () => {
         <>
             <div className="bg-gray-100 py-4">
                 <div className="container mx-auto px-4 text-sm text-gray-600">
-                    <span><a href="/" className="hover:underline">Home</a></span> / <span>Contact</span>
+                    <span><Link href="/" className="hover:underline">Home</Link></span> / <span>Contact</span>
                 </div>
             </div>
             <section className="container mx-auto px-4 py-16">

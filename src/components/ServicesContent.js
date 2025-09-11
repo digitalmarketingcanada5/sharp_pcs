@@ -19,7 +19,7 @@ const ServicesContent = () => (
                 <div className="text-left">
                      <h2 className="text-3xl font-bold text-blue-900 mb-4">Partnering for Coordinated Project Execution</h2>
                     <p className="text-gray-600 leading-relaxed">
-                       Our role as the project manager is to be the eyes and ears of the client and to act in their best interest. Our approach begins with understanding and maintaining the design intent and the owner's purpose of use. From there, we identity the gaps and what it takes to improve the system. We develop a structure that builds in communication and project controls processes to ensure the right information is available for good decisions.
+                       Our role as the project manager is to be the eyes and ears of the client and to act in their best interest. Our approach begins with understanding and maintaining the design intent and the owner&apos;s purpose of use. From there, we identity the gaps and what it takes to improve the system. We develop a structure that builds in communication and project controls processes to ensure the right information is available for good decisions.
                     </p>
                 </div>
             </div>
@@ -27,7 +27,7 @@ const ServicesContent = () => (
             {/* Quote Section */}
             <div className="text-center my-20">
                 <blockquote className="text-2xl italic text-gray-700 font-serif border-l-4 border-blue-600 pl-6 inline-block">
-                    "Project controls – solving critical issues of a project – is part of the CMS "DNA.""
+                    &ldquo;Project controls – solving critical issues of a project – is part of the CMS &ldquo;DNA.&rdquo;&rdquo;
                 </blockquote>
             </div>
 
@@ -63,7 +63,7 @@ const ServicesContent = () => (
                     </div>
                      <h2 className="text-3xl font-bold text-blue-900 mb-4">Solving Critical Issues</h2>
                     <p className="text-gray-600 leading-relaxed">
-                        As project controls experts, we know what drives scope, schedule, and cost. We identify the project's critical and near critical paths to bring focus to the proper activities and mitigate risks. We also understand earned value management, which enables us to evaluate a project's performance and suggest ways to bring struggling projects back on track. These skills enable us to make better decisions and to mitigate problems early on. We communicate this critical information a clear way, customized to specific stakeholders.
+                        As project controls experts, we know what drives scope, schedule, and cost. We identify the project&apos;s critical and near critical paths to bring focus to the proper activities and mitigate risks. We also understand earned value management, which enables us to evaluate a project&apos;s performance and suggest ways to bring struggling projects back on track. These skills enable us to make better decisions and to mitigate problems early on. We communicate this critical information a clear way, customized to specific stakeholders.
                     </p>
                 </div>
             </div>

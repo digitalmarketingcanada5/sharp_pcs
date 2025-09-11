@@ -5,7 +5,7 @@ const Footer = () => (
                 {/* Block 1: Logo and Description */}
                 <div>
                     <img src="https://thecmsolution.com/wp-content/uploads/2021/01/CMS-new-logo.svg" alt="CM Solutions Logo" className="h-10 mb-4" />
-                    <p className="text-gray-400 text-sm">CM Solutions' experts bring the very best in project management and controls for complex, multimillion-dollar construction projects in transportation, energy, water/wastewater, facilities and oil & gas.</p>
+                    <p className="text-gray-400 text-sm">CM Solutions&apos; experts bring the very best in project management and controls for complex, multimillion-dollar construction projects in transportation, energy, water/wastewater, facilities and oil & gas.</p>
                 </div>
                 {/* Block 2: CM Solutions Links */}
                 <div>
