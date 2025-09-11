@@ -129,7 +129,7 @@ const MainContent = () => (
             {/* Quote Section */}
             <div className="text-center my-20">
                 <blockquote className="text-2xl italic text-gray-700 font-serif border-l-4 border-blue-600 pl-6 inline-block">
-                    "Project controls – solving critical issues of a project – is part of the CMS “DNA.”"
+                    "Project controls – solving critical issues of a project – is part of our “DNA.”"
                 </blockquote>
             </div>
 
