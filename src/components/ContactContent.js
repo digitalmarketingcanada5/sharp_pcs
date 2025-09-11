@@ -38,31 +38,31 @@ const ContactContent = () => {
                     {/* Sidebar */}
                     <aside className="md:w-1/3 space-y-8">
                         <div>
-                            <h3 className="font-bold text-lg text-blue-900 tracking-wider">LOS ANGELES<br/>CORPORATE OFFICE</h3>
-                            <p className="mt-4 text-gray-600">SHARP PCS<br/>114 W Colorado Blvd<br/>Monrovia, CA 91016</p>
+                            <h3 className="font-bold text-lg text-blue-900 tracking-wider">CORPORATE OFFICE</h3>
+                            <p className="mt-4 text-gray-600">SHARP PCS<br/>3099-421 7 ave sw</p>
                             <ul className="mt-6 space-y-3">
                                 <li className="flex items-center"><img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-phone.svg" alt="Phone" className="h-5 w-5 mr-3"/><a href="tel:626.639.2813" className="text-gray-600 hover:text-blue-600">626.639.2813</a></li>
-                                <li className="flex items-center"><img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-mail.svg" alt="Email" className="h-5 w-5 mr-3"/><a href="mailto:info@thecmsolution.com" className="text-gray-600 hover:text-blue-600">info@thecmsolution.com</a></li>
+                                <li className="flex items-center"><img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-mail.svg" alt="Email" className="h-5 w-5 mr-3"/><a href="mailto:info@sharppcs.com" className="text-gray-600 hover:text-blue-600">info@sharppcs.com</a></li>
                                 <li className="flex items-center"><img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-marker.svg" alt="Directions" className="h-5 w-5 mr-3"/><a href="https://g.page/cm-solutions-monrovia?gm" target="_blank" className="text-gray-600 hover:text-blue-600">Directions</a></li>
                                 <li className="flex items-center"><img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-linkedin-small.svg" alt="LinkedIn" className="h-5 w-5 mr-3"/><a href="https://www.linkedin.com/company/construction-management-solutions/" target="_blank" className="text-gray-600 hover:text-blue-600">LinkedIn</a></li>
                             </ul>
                         </div>
                          <div>
                             <h4 className="font-bold text-blue-800 tracking-wide">Sales/Services Inquiries</h4>
-                            <a href="mailto:services@thecmsolution.com" className="text-blue-600 hover:underline">services@thecmsolution.com</a>
+                            <a href="mailto:services@sharppcs.com" className="text-blue-600 hover:underline">services@sharppcs.com</a>
                         </div>
                         <div>
                             <h4 className="font-bold text-blue-800 tracking-wide">Partnering Inquiries</h4>
-                            <a href="mailto:teaming@thecmsolution.com" className="text-blue-600 hover:underline">teaming@thecmsolution.com</a>
+                            <a href="mailto:teaming@sharppcs.com" className="text-blue-600 hover:underline">teaming@sharppcs.com</a>
                         </div>
                         <div>
                             <h4 className="font-bold text-blue-800 tracking-wide">Careers</h4>
-                            <a href="mailto:recruiting@thecmsolution.com" className="text-blue-600 hover:underline">recruiting@thecmsolution.com</a>
+                            <a href="mailto:recruiting@sharppcs.com" className="text-blue-600 hover:underline">recruiting@sharppcs.com</a>
                         </div>
                     </aside>
                     {/* Main Content */}
                     <div className="md:w-2/3">
-                        <img src="https://thecmsolution.com/wp-content/uploads/2021/06/Contact_Us_banner-1.jpg" alt="Contact Us Banner" className="w-full rounded-lg mb-8 shadow-md" />
+                        {/* <img src="/contact.png" alt="Contact Us Banner" className="w-full rounded-lg mb-8 shadow-md" /> */}
                         <h1 className="text-3xl font-bold text-blue-900 mb-6">Contact Us Today About a Project</h1>
                         <form onSubmit={handleSubmit} className="space-y-6">
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
