@@ -14,9 +14,13 @@ const ServicesContent = () => (
             {/* Partnering Section */}
              <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
                 <div>
-                    <img src="https://thecmsolution.com/wp-content/uploads/2024/02/Services-Pgm-Proj-mgmt-meeting-desktop.jpg" alt="Team meeting" className="rounded-lg shadow-xl"/>
+                    <img src="/services/services1.png" alt="Team meeting" className="rounded-lg shadow-xl"/>
                 </div>
                 <div className="text-left">
+                     <div className="flex items-center text-blue-600 mb-4">
+                        <img src="/globe.svg" alt="Partnership Icon" className="h-8 w-8 mr-3"/>
+                        <span className="font-bold tracking-wider">PARTNERSHIP</span>
+                    </div>
                      <h2 className="text-3xl font-bold text-blue-900 mb-4">Partnering for Coordinated Project Execution</h2>
                     <p className="text-gray-600 leading-relaxed">
                        Our role as the project manager is to be the eyes and ears of the client and to act in their best interest. Our approach begins with understanding and maintaining the design intent and the owner&apos;s purpose of use. From there, we identity the gaps and what it takes to improve the system. We develop a structure that builds in communication and project controls processes to ensure the right information is available for good decisions.
@@ -34,7 +38,11 @@ const ServicesContent = () => (
             {/* Specialties Section */}
             <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
                 <div className="text-left md:order-2">
-                    <h2 className="text-3xl font-bold text-blue-900 mb-4">Specialties</h2>
+                    <div className="flex items-center text-blue-600 mb-4">
+                        <img src="/window.svg" alt="Specialties Icon" className="h-8 w-8 mr-3"/>
+                        <span className="font-bold tracking-wider">SPECIALTIES</span>
+                    </div>
+                    <h2 className="text-3xl font-bold text-blue-900 mb-4">Our Core Expertise</h2>
                     <ul className="list-disc list-inside text-gray-600 space-y-2 leading-relaxed">
                         <li>Scope Management</li>
                         <li>CPM Schedule Execution</li>
@@ -47,18 +55,18 @@ const ServicesContent = () => (
                     </ul>
                 </div>
                 <div className="md:order-1">
-                    <img src="https://thecmsolution.com/wp-content/uploads/2024/04/pgm-mgmt-specialities-desktop.jpg" alt="Specialties for program and project management" className="rounded-lg shadow-xl"/>
+                    <img src="/services/services2.png" alt="Specialties for program and project management" className="rounded-lg shadow-xl"/>
                 </div>
             </div>
 
             {/* Solving Critical Issues Section */}
              <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
                  <div>
-                    <img src="https://thecmsolution.com/wp-content/uploads/2024/02/Services-Pgm-Proj-mgmt-gantt-chart-desktop.jpg" alt="Gantt chart" className="rounded-lg shadow-xl"/>
+                    <img src="/services/services3.png" alt="Gantt chart" className="rounded-lg shadow-xl"/>
                 </div>
                 <div className="text-left">
                      <div className="flex items-center text-blue-600 mb-4">
-                        <img src="https://thecmsolution.com/wp-content/uploads/2021/03/ico-innovation.svg" alt="Innovation Icon" className="h-8 w-8 mr-3"/>
+                        <img src="/file.svg" alt="Innovation Icon" className="h-8 w-8 mr-3"/>
                         <span className="font-bold tracking-wider">INNOVATION</span>
                     </div>
                      <h2 className="text-3xl font-bold text-blue-900 mb-4">Solving Critical Issues</h2>
