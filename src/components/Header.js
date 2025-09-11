@@ -15,7 +15,7 @@ const Header = () => {
         <div className="flex justify-between items-center py-4">
           <div className="logo">
             <Link href="/">
-              <img src="https://thecmsolution.com/wp-content/uploads/2021/01/CMS-new-logo.svg" alt="CM Solutions Logo" className="h-10" />
+              <img src="https://thecmsolution.com/wp-content/uploads/2021/01/CMS-new-logo.svg" alt="SHARP PCS Logo" className="h-10" />
             </Link>
           </div>
           <nav className="hidden md:flex items-center space-x-6">

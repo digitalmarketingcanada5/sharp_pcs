@@ -4,12 +4,12 @@ const Footer = () => (
             <div className="grid md:grid-cols-4 gap-8">
                 {/* Block 1: Logo and Description */}
                 <div>
-                    <img src="https://thecmsolution.com/wp-content/uploads/2021/01/CMS-new-logo.svg" alt="CM Solutions Logo" className="h-10 mb-4" />
-                    <p className="text-gray-400 text-sm">CM Solutions&apos; experts bring the very best in project management and controls for complex, multimillion-dollar construction projects in transportation, energy, water/wastewater, facilities and oil & gas.</p>
+                    <img src="https://thecmsolution.com/wp-content/uploads/2021/01/CMS-new-logo.svg" alt="SHARP PCS Logo" className="h-10 mb-4" />
+                    <p className="text-gray-400 text-sm">SHARP PCS&apos; experts bring the very best in project management and controls for complex, multimillion-dollar construction projects in transportation, energy, water/wastewater, facilities and oil & gas.</p>
                 </div>
-                {/* Block 2: CM Solutions Links */}
+                {/* Block 2: SHARP PCS Links */}
                 <div>
-                    <h2 className="font-bold mb-4">CM SOLUTIONS</h2>
+                    <h2 className="font-bold mb-4">SHARP PCS</h2>
                     <ul className="text-sm space-y-2">
                         <li><a href="https://thecmsolution.com/about-cm-solutions/" className="text-gray-400 hover:text-white">About Us</a></li>
                         <li><a href="https://thecmsolution.com/services/" className="text-gray-400 hover:text-white">Services</a></li>
@@ -55,7 +55,7 @@ const Footer = () => (
         </div>
         <div className="bg-gray-900 py-4">
              <div className="container mx-auto px-4 flex justify-between items-center text-xs text-gray-500">
-                <p>Copyright © 2025 CM Solutions. All rights reserved.</p>
+                <p>Copyright © 2025 SHARP PCS. All rights reserved.</p>
                 <div className="flex space-x-4">
                      <a href="https://thecmsolution.com/privacy-policy/" className="hover:text-white">Privacy Policy</a>
                      <a href="https://thecmsolution.com/terms-of-service/" className="hover:text-white">Terms of Service</a>

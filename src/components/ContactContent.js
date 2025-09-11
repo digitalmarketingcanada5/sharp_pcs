@@ -39,7 +39,7 @@ const ContactContent = () => {
                     <aside className="md:w-1/3 space-y-8">
                         <div>
                             <h3 className="font-bold text-lg text-blue-900 tracking-wider">LOS ANGELES<br/>CORPORATE OFFICE</h3>
-                            <p className="mt-4 text-gray-600">CM Solutions<br/>114 W Colorado Blvd<br/>Monrovia, CA 91016</p>
+                            <p className="mt-4 text-gray-600">SHARP PCS<br/>114 W Colorado Blvd<br/>Monrovia, CA 91016</p>
                             <ul className="mt-6 space-y-3">
                                 <li className="flex items-center"><img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-phone.svg" alt="Phone" className="h-5 w-5 mr-3"/><a href="tel:626.639.2813" className="text-gray-600 hover:text-blue-600">626.639.2813</a></li>
                                 <li className="flex items-center"><img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-mail.svg" alt="Email" className="h-5 w-5 mr-3"/><a href="mailto:info@thecmsolution.com" className="text-gray-600 hover:text-blue-600">info@thecmsolution.com</a></li>
