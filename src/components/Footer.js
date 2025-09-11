@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const Footer = () => (
     <footer className="bg-gray-800 text-white">
         <div className="container mx-auto px-4 py-16">
@@ -11,9 +13,9 @@ const Footer = () => (
                 <div>
                     <h2 className="font-bold mb-4">SHARP PCS</h2>
                     <ul className="text-sm space-y-2">
-                        <li><a href="/" className="text-gray-400 hover:text-white">Home</a></li>
-                        <li><a href="/services" className="text-gray-400 hover:text-white">Services</a></li>
-                        <li><a href="/contact" className="text-gray-400 hover:text-white">Contact</a></li>
+                        <li><Link href="/" className="text-gray-400 hover:text-white">Home</Link></li>
+                        <li><Link href="/services" className="text-gray-400 hover:text-white">Services</Link></li>
+                        <li><Link href="/contact" className="text-gray-400 hover:text-white">Contact</Link></li>
                     </ul>
                 </div>
                  {/* Block 3: Contact Info */}
