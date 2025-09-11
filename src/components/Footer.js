@@ -4,19 +4,16 @@ const Footer = () => (
             <div className="grid md:grid-cols-4 gap-8">
                 {/* Block 1: Logo and Description */}
                 <div>
-                    <img src="https://thecmsolution.com/wp-content/uploads/2021/01/CMS-new-logo.svg" alt="SHARP PCS Logo" className="h-10 mb-4" />
+                    <img src="/images/logo.png" alt="SHARP PCS Logo" className="h-16 mb-4" />
                     <p className="text-gray-400 text-sm">SHARP PCS&apos; experts bring the very best in project management and controls for complex, multimillion-dollar construction projects in transportation, energy, water/wastewater, facilities and oil & gas.</p>
                 </div>
                 {/* Block 2: SHARP PCS Links */}
                 <div>
                     <h2 className="font-bold mb-4">SHARP PCS</h2>
                     <ul className="text-sm space-y-2">
-                        <li><a href="https://thecmsolution.com/about-cm-solutions/" className="text-gray-400 hover:text-white">About Us</a></li>
-                        <li><a href="https://thecmsolution.com/services/" className="text-gray-400 hover:text-white">Services</a></li>
-                        <li><a href="https://thecmsolution.com/projects/" className="text-gray-400 hover:text-white">Projects</a></li>
-                        <li><a href="https://thecmsolution.com/careers-for-schedulers-and-cost-analysts/" className="text-gray-400 hover:text-white">Careers</a></li>
-                        <li><a href="https://thecmsolution.com/articles-about-construction-scheduling-and-cost-controls/" className="text-gray-400 hover:text-white">News</a></li>
-                        <li><a href="https://thecmsolution.com/contact-us-for-construction-project-success/" className="text-gray-400 hover:text-white">Contact</a></li>
+                        <li><a href="/" className="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="/services" className="text-gray-400 hover:text-white">Services</a></li>
+                        <li><a href="/contact" className="text-gray-400 hover:text-white">Contact</a></li>
                     </ul>
                 </div>
                  {/* Block 3: Contact Info */}
