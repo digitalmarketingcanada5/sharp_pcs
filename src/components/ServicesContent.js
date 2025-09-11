@@ -12,7 +12,7 @@ const ServicesContent = () => (
             </div>
 
             {/* Partnering Section */}
-             <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+             <div id="planning-scheduling" className="grid md:grid-cols-2 gap-12 items-center mb-16">
                 <div>
                     <img src="/services/services1.png" alt="Team meeting" className="rounded-lg shadow-xl"/>
                 </div>
@@ -36,7 +36,7 @@ const ServicesContent = () => (
             </div>
 
             {/* Specialties Section */}
-            <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
+            <div id="cost-controls" className="grid md:grid-cols-2 gap-12 items-center mb-16">
                 <div className="text-left md:order-2">
                     <div className="flex items-center text-blue-600 mb-4">
                         <img src="/window.svg" alt="Specialties Icon" className="h-8 w-8 mr-3"/>
@@ -60,7 +60,7 @@ const ServicesContent = () => (
             </div>
 
             {/* Solving Critical Issues Section */}
-             <div className="grid md:grid-cols-2 gap-12 items-center mb-20">
+             <div id="executive-reporting" className="grid md:grid-cols-2 gap-12 items-center mb-20">
                  <div>
                     <img src="/services/services3.png" alt="Gantt chart" className="rounded-lg shadow-xl"/>
                 </div>
@@ -77,7 +77,7 @@ const ServicesContent = () => (
             </div>
             
             {/* Projects Section */}
-            <div className="text-center">
+            <div id="risk-management" className="text-center">
                 <h2 className="text-3xl font-bold text-blue-900 mb-10">Solutions for Project Success</h2>
                 <div className="grid md:grid-cols-3 gap-8">
                     {/* Project 1 */}
