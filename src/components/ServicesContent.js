@@ -86,7 +86,6 @@ const ServicesContent = () => (
                         <div className="p-6">
                             <h3 className="font-semibold text-blue-700 text-sm">Program Management, Project Management, Project Coordination</h3>
                             <p className="font-bold text-gray-800 my-2">Electric Distribution Planning Program Management</p>
-                            <a href="https://thecmsolution.com/project/electric-distribution-construction-program-management/" className="text-blue-600 font-bold hover:underline text-sm">READ MORE</a>
                         </div>
                     </div>
                     {/* Project 2 */}
@@ -95,7 +94,6 @@ const ServicesContent = () => (
                         <div className="p-6">
                             <h3 className="font-semibold text-blue-700 text-sm">Project Management, Scope Management, Safety</h3>
                             <p className="font-bold text-gray-800 my-2">PM/CM for Public Works Facilities Program</p>
-                            <a href="https://thecmsolution.com/project/project-management-for-public-works/" className="text-blue-600 font-bold hover:underline text-sm">READ MORE</a>
                         </div>
                     </div>
                     {/* Project 3 */}
@@ -104,7 +102,6 @@ const ServicesContent = () => (
                         <div className="p-6">
                              <h3 className="font-semibold text-blue-700 text-sm">Project Planning Services, Time Impact Analysis, Master Schedule</h3>
                             <p className="font-bold text-gray-800 my-2">San Jose-Santa Clara Regional Wastewater Facility CIP Program</p>
-                            <a href="https://thecmsolution.com/project/san-jose-santa-clara-regional-wastewater-facility/" className="text-blue-600 font-bold hover:underline text-sm">READ MORE</a>
                         </div>
                     </div>
                 </div>
