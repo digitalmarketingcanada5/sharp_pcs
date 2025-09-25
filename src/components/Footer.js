@@ -28,7 +28,7 @@ const Footer = () => (
                         </li>
                         <li className="flex items-center">
                             <img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-phone.svg" alt="Phone" className="h-5 w-5 mr-3"/>
-                            <a href="tel:626.639.2813" className="text-gray-400 hover:text-white">626.639.2813</a>
+                            <a href="tel:403.797.1362" className="text-gray-400 hover:text-white">403.797.1362</a>
                         </li>
                         <li className="flex items-center">
                             <img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-mail.svg" alt="Email" className="h-5 w-5 mr-3"/>
@@ -36,19 +36,9 @@ const Footer = () => (
                         </li>
                     </ul>
                 </div>
-                 {/* Block 4: Follow Us & Certifications */}
+                 {/* Block 4: Removed Follow Us & Certifications */}
                 <div>
-                    <h2 className="font-bold mb-4">FOLLOW US</h2>
-                    <div className="flex space-x-4 mb-6">
-                        <a href="https://www.linkedin.com/company/construction-management-solutions/" target="_blank">
-                            <img src="https://thecmsolution.com/wp-content/uploads/2021/03/icon-linkedin.svg" alt="LinkedIn" className="h-8"/>
-                        </a>
-                        <a href="https://g.page/cm-solutions-monrovia?gm" target="_blank">
-                             <img src="https://thecmsolution.com/wp-content/uploads/2021/03/GMB_logo-1.svg" alt="Google My Business" className="h-8"/>
-                        </a>
-                    </div>
-                     <h2 className="font-bold mb-4">OUR CERTIFICATIONS</h2>
-                     <p className="text-gray-400 text-sm">A Certified SBE/DBE/WBE Firm in multiple states including CA, AZ, CO, FL, NJ, NY, TN, TX, and WA</p>
+                    {/* Social links and certifications removed as requested */}
                 </div>
             </div>
         </div>
