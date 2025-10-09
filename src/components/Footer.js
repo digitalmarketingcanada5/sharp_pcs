@@ -45,10 +45,10 @@ const Footer = () => (
         <div className="bg-gray-900 py-4">
              <div className="container mx-auto px-4 flex justify-between items-center text-xs text-gray-500">
                 <p>Copyright © 2025 SHARP PCS. All rights reserved.</p>
-                <div className="flex space-x-4">
+                {/* <div className="flex space-x-4">
                      <a href="https://thecmsolution.com/privacy-policy/" className="hover:text-white">Privacy Policy</a>
                      <a href="https://thecmsolution.com/terms-of-service/" className="hover:text-white">Terms of Service</a>
-                </div>
+                </div> */}
              </div>
         </div>
     </footer>
