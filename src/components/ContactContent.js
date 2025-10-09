@@ -33,7 +33,8 @@ const ContactContent = () => {
                     <span><Link href="/" className="hover:underline">Home</Link></span> / <span>Contact</span>
                 </div>
             </div>
-            <section className="container mx-auto px-4 py-16">
+            <section className="bg-gray-50 py-16">
+                <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row gap-12">
                     {/* Sidebar */}
                     <aside className="md:w-1/3 space-y-8">
@@ -92,6 +93,7 @@ const ContactContent = () => {
                             </div>
                         </form>
                     </div>
+                </div>
                 </div>
             </section>
         </>
