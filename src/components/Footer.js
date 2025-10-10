@@ -30,10 +30,6 @@ const Footer = () => (
                             <img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-phone.svg" alt="Phone" className="h-5 w-5 mr-3"/>
                             <a href="tel:403.797.1362" className="text-gray-400 hover:text-white">403.797.1362</a>
                         </li>
-                        <li className="flex items-center">
-                            <img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-mail.svg" alt="Email" className="h-5 w-5 mr-3"/>
-                            <a href="mailto:info@sharppcs.com" className="text-gray-400 hover:text-white">info@sharppcs.com</a>
-                        </li>
                     </ul>
                 </div>
                  {/* Block 4: Removed Follow Us & Certifications */}

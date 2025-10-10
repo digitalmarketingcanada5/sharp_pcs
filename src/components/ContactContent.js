@@ -22,8 +22,14 @@ const ContactContent = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        alert('Form submitted! (Check console for data)');
-        console.log('Form data:', formData);
+
+        // Create mailto link with form data
+        const mailtoLink = `mailto:h_hendizadeh@yahoo.com?subject=Contact Form Submission from ${encodeURIComponent(formData.firstName)} ${encodeURIComponent(formData.lastName)}&body=${encodeURIComponent(
+            `First Name: ${formData.firstName}\nLast Name: ${formData.lastName}\nEmail: ${formData.email}\nPhone: ${formData.phone}\n\nMessage:\n${formData.message}`
+        )}`;
+
+        // Open default mail client
+        window.location.href = mailtoLink;
     };
     
     return (
@@ -42,23 +48,10 @@ const ContactContent = () => {
                             <h3 className="font-bold text-lg text-blue-900 tracking-wider">CORPORATE OFFICE</h3>
                             <p className="mt-4 text-gray-600">SHARP PCS<br/>3099-421 7 ave sw</p>
                             <ul className="mt-6 space-y-3">
-                                <li className="flex items-center"><img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-phone.svg" alt="Phone" className="h-5 w-5 mr-3"/><a href="tel:626.639.2813" className="text-gray-600 hover:text-blue-600">626.639.2813</a></li>
-                                <li className="flex items-center"><img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-mail.svg" alt="Email" className="h-5 w-5 mr-3"/><a href="mailto:info@sharppcs.com" className="text-gray-600 hover:text-blue-600">info@sharppcs.com</a></li>
-                                <li className="flex items-center"><img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-marker.svg" alt="Directions" className="h-5 w-5 mr-3"/><a href="https://g.page/cm-solutions-monrovia?gm" target="_blank" className="text-gray-600 hover:text-blue-600">Directions</a></li>
-                                <li className="flex items-center"><img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-linkedin-small.svg" alt="LinkedIn" className="h-5 w-5 mr-3"/><a href="https://www.linkedin.com/company/construction-management-solutions/" target="_blank" className="text-gray-600 hover:text-blue-600">LinkedIn</a></li>
+                                <li className="flex items-center"><img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-phone.svg" alt="Phone" className="h-5 w-5 mr-3"/><a href="tel:403.797.1362" className="text-gray-600 hover:text-blue-600">403.797.1362</a></li>
+                                {/* <li className="flex items-center"><img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-marker.svg" alt="Directions" className="h-5 w-5 mr-3"/><a href="https://g.page/cm-solutions-monrovia?gm" target="_blank" className="text-gray-600 hover:text-blue-600">Directions</a></li> */}
+                                {/* <li className="flex items-center"><img src="https://thecmsolution.com/wp-content/themes/cm_solutions/markup/assets/img/icon-linkedin-small.svg" alt="LinkedIn" className="h-5 w-5 mr-3"/><a href="https://www.linkedin.com/company/construction-management-solutions/" target="_blank" className="text-gray-600 hover:text-blue-600">LinkedIn</a></li> */}
                             </ul>
-                        </div>
-                         <div>
-                            <h4 className="font-bold text-blue-800 tracking-wide">Sales/Services Inquiries</h4>
-                            <a href="mailto:services@sharppcs.com" className="text-blue-600 hover:underline">services@sharppcs.com</a>
-                        </div>
-                        <div>
-                            <h4 className="font-bold text-blue-800 tracking-wide">Partnering Inquiries</h4>
-                            <a href="mailto:teaming@sharppcs.com" className="text-blue-600 hover:underline">teaming@sharppcs.com</a>
-                        </div>
-                        <div>
-                            <h4 className="font-bold text-blue-800 tracking-wide">Careers</h4>
-                            <a href="mailto:recruiting@sharppcs.com" className="text-blue-600 hover:underline">recruiting@sharppcs.com</a>
                         </div>
                     </aside>
                     {/* Main Content */}
